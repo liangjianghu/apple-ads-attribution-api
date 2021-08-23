@@ -1,6 +1,25 @@
 # apple-ads-attribution-api
+
 苹果广告归因 API 示例，Apple Ads Attribution examples 
 
+## 1234567890 问题
+
+苹果提供了归因模拟数据的方式，供开发者在开发调试时，方便解析处理归因数据。但不少 app 在开发完成、开始广告投放后，依然收集到了大量模拟数据。
+
+```json
+{
+    "adGroupId": 1234567890,
+    "attribution": true,
+    "campaignId": 1234567890,
+    "conversionType": "Download",
+    "countryOrRegion": "US",
+    "creativeSetId": 1234567890,
+    "keywordId": 12323222,
+    "orgId": 1234567890
+}
+```
+
+量江湖已经通过调研与测试验证，找到了此类数据产生的原因。如开发者有此疑问，可以联系量江湖。 
 
 ## 将框架添加到您的项目工程
 
